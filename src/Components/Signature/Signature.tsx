@@ -1,6 +1,6 @@
-import Icon2 from "../../Assets/images/upload-icon-2.svg";
-import Icon3 from "../../Assets/images/upload-icon-3.svg";
-import Icon4 from "../../Assets/images/upload-icon-4.svg";
+import Icon2 from "../../Assets/images/img_allsign_1.png";
+import Icon3 from "../../Assets/images/img_allsign_2.png";
+import Icon4 from "../../Assets/images/img_allsign_3.png";
 const Signature = () => {
   const signatures = [
     {

@@ -6,7 +6,8 @@
     color: $white;
     align-items: center;
     &__heading {
-        width: 20%;
+        width: 40%;
+        @extend .heading-6;
     }
     &__paragraph {
         @extend .paragraph-6;
