@@ -1,0 +1,40 @@
+.contact-process {
+    &__heading {
+        @extend .heading-2;
+        color: $black-four;
+        padding-top: 120px;
+        text-align: center;
+    }
+    &__paragraph {
+        @extend .paragraph-3;
+        color: $black-four;
+        padding-top: 40px;
+        text-align: center;
+    }
+    &__step {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 80px;
+        padding-bottom: 123px;
+        &--item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 25%;
+        }
+        &--icon {
+            width: 120px;
+        }
+        &--title {
+            @extend .heading-3;
+            font-weight: normal;
+            color: $black-four;
+            padding-top: 35px;
+        }
+        &--describe {
+            @extend .paragraph-4;
+            width: 190px;
+            padding-top: 19px;
+        }
+    }
+}

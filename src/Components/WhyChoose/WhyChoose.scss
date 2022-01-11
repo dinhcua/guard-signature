@@ -1,0 +1,46 @@
+.why-choose {
+    .get-started__button {
+        background-color: $black-four;
+    }
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-color: $gray;
+    &__heading {
+        @extend .heading-4;
+        text-align: center;
+        font-weight: normal;
+    }
+    &__paragraph {
+        @extend .paragraph-3;
+        text-align: center;
+        padding-top: 40px;
+    }
+
+    &__reason {
+        padding-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        &--image {
+            padding-top: 50px;
+            width: 610px;
+            height: 610px;
+        }
+        &--list.right {
+            text-align: right
+        }
+        &--icon {
+            padding-top: 50px;
+        }
+        &--title {
+            @extend .heading-5;
+            padding-top: 25px;
+            color: $greyish;
+        }
+        &--describe {
+            @extend .paragraph-3;
+            width: 250px;
+            padding-top: 20px;
+            color: $greyish;
+        }
+    }
+}

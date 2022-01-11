@@ -1,0 +1,15 @@
+.easy-quick {
+    background-color: $clear-blue;
+    height: 376px;
+    display: flex;
+    flex-direction: row;
+    color: $white;
+    align-items: center;
+    &__heading {
+        width: 20%;
+    }
+    &__paragraph {
+        @extend .paragraph-6;
+        padding-left: 150px;
+    }
+}

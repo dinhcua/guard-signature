@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 65%;
+    margin: 0 auto;
+}
+.d-flex {
+    display: flex;
+}
+//heading
+.heading-1 {
+    font-size: 50px;
+    text-align: left;
+    line-height: 65px;
+}
+.heading-2 {
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: normal;
+}
+.heading-3 {
+    font-size: 24px;
+    line-height: 33px;
+    font-weight: normal;
+}
+.heading-4 {
+    font-size: 40px;
+    line-height: 55px;
+}
+.heading-5 {
+    font-size: 23px;
+    line-height: 30px;
+    font-weight: normal;
+}
+//paragraph
+.paragraph-1 {
+    font-size: 14px;
+    line-height: 24px;    
+}
+.paragraph-2 {
+    font-size: 14px;
+    line-height: 40px; 
+}
+
+.paragraph-3 {
+    font-size: 18px;
+    line-height: 28px;
+}
+.paragraph-4 {
+    font-size: 18px;
+    line-height: 24px;
+}
+.paragraph-5 {
+    font-size: 18px;
+    line-height: 30px;
+}
+.paragraph-6 {
+    font-size: 16px;
+    line-height: 30px;
+}
+@import './variants.scss';
+@import './Components/NavBar/NavBar.scss';
+@import './Components/Banner/Banner.scss';
+@import './Components/ContactProcess/ContactProcess.scss';
+@import './Components/GetStarted/GetStarted.scss';
+@import './Components/Services/Services.scss';
+@import './Components/EasyQuick/EasyQuick.scss';
+@import './Components/Signature/Signature.scss';
+@import './Components/WhyChoose/WhyChoose.scss';
+@import './Components/Footer/Footer.scss'

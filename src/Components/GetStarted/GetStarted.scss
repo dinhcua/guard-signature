@@ -1,0 +1,28 @@
+.get-started {
+    background-color: $gray;
+    height: 400px;
+    &__paragraph {
+        @extend .paragraph-3;
+        color: $clear-blue;
+        padding-top: 80px;
+        text-align: center;
+    }
+    &__heading {
+        @extend .heading-2;
+        color: $black-four;
+        padding-top: 30px;
+        text-align: center;
+    }
+    &__button {
+        display: flex;
+        background-color: $clear-blue;
+        width: 218px;
+        height: 50px;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 25px;
+        padding: 16px 25px 17px 31px;
+        margin: 50px auto;
+        color: $white;
+    }
+}

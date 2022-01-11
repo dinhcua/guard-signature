@@ -1,0 +1,45 @@
+.service {
+    &__item:nth-child(even) {
+        display: flex;
+        flex-direction: row-reverse;
+        height: 640px;
+        justify-content: flex-end;
+        align-items: center;
+        text-align: right;
+        background-color: $gray;
+    }
+    &__item:nth-child(odd) {
+        display: flex;
+        flex-direction: row;
+        height: 640px;
+        justify-content: flex-end;
+        align-items: center;
+        text-align: left;
+    }
+    &__cover--image {
+        width: 610px;
+        height: 400px;
+    }
+    &__decs{
+        width: 50%;
+        padding: 100px;
+        &--number {
+            display: block;
+            text-transform: uppercase;
+            color: $clear-blue;
+            margin-bottom: 30px
+        }
+        &--title {
+            display: block;
+            margin-bottom: 40px;
+            @extend .heading-2;
+        }
+        &--describe {
+            display: inline-block;
+            @extend .paragraph-4;
+            color: $black-four;
+            width: 450px;
+            text-align: inherit;
+        }
+    }
+}
